@@ -7,7 +7,7 @@ platform :ios do
   lane :test do
     xctest scheme: 'Buildkite Fastlane Demo',
            sdk: 'iphonesimulator',
-           destination: 'platform=iOS Simulator,name=iPhone 6,OS=9.2‘,
+           destination: 'platform=iOS Simulator,name=iPhone 6,OS=9.2',
            derivedDataPath: './fastlane/xcodebuild-data'
   end
 end
