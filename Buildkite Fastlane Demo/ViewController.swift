@@ -9,6 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let aBool:BOOL;
+    let aBool:BOOL; //yes
 }
 
